@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+
+    --color-letter: #111111;
+    --color-box: #FBDFDB;
+    --background-footer: #EEEEEE;
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: white;
+    font-family: 'Roboto-Regular';
+    color: var(--color-letter);
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+header {
+  
+    padding: 0px;
+    
+      
+}
+
+.menu {
+
+  width: 330px;
+  height: 20px;
+  margin: 0px 450px;
+  position: relative;
+
+}
+
+.menu  a {
+
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 10px 10px auto;
+    text-decoration: none;
+    color: #000;
+    width: 100px 0;
+
+  
+
+}
+.card .infocard {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    
+}
+
+.cardsfood {
+
+
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.cardsfood img  {
+
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    
+
+}
+
+.thebox {
+/* box rosa */
+
+    background-color: var(--color-box);
+    position: 230px 93px;
+    width: 940px;
+    height: 366px;
+    opacity: 100%;
+    margin: 50px auto;
+    border-radius: 20px;
+      
+
+}
+
+.thebox img {
+
+/* img box  'chef'*/
+    float: right;
+    display: flex;
+    position: absolute;
+    top: 136px;
+    right: 540px;
+}
+
+.thebox strong {
+    /* conteúdo box "as melhores receitas" */
+
+   
+    font-size: 32px;
+    color: #111111;
+      
+    
+    
+    margin: 70px;
+    line-height: 28px;
+    padding: 5px 0px;
+    position: absolute;
+   
+   
+}
+
+.thebox p {
+/* conteúdo do box - texto maior */
+    opacity: 0.7;
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    color: #000000;
+    line-height: 28px;
+    
+    width: 390px;
+    margin: 70px;
+    padding: 5px;
+
+
+
+}
+
+.most-accessed  {
+/* mais acessadas */
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    width: 940px;
+    margin: 20px auto;
+    
+   
+}
+
+.footer    {
+
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 62px;
+    margin: 0px;
+    padding: 0;
+  
+}
+
+.footer   p {
+
+   
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+
+} 
