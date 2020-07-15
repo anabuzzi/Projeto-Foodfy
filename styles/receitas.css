@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 
@@ -50,9 +49,9 @@ header {
     margin: 10px 10px auto;
     text-decoration: none;
     color: #000;
-    width: 100px 0;
-    padding: 20px 0px 0px;
- 
+    position: relative!important;
+    padding: 20px 0px 30px;
+    
 
 }
 
@@ -81,7 +80,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-
+    float: left;
+    
 }
 
 .cardsfood img  {
@@ -90,76 +90,8 @@ header {
     height: 140px;
     border-radius: 15px;
     
-
-}
-
-.thebox {
-/* box rosa */
-
-    background-color: var(--color-box);
-    width: 940px;
-    height: 366px;
-    opacity: 100%;
-    margin: 50px auto;
-    border-radius: 20px;
-      
-
-}
-
-.thebox img {
-
-/* img box  'chef'*/
-    float: right;
-    display: flex;
-    position: absolute;
-    top: 136px;
-    right: 540px;
-}
-
-.thebox strong {
-    /* conteúdo box "as melhores receitas" */
-
-   
-    font-size: 32px;
-    color: #111111;
-      
     
-    
-    margin: 70px;
-    line-height: 28px;
-    padding: 5px 0px;
-    position: absolute;
-   
-   
-}
 
-.thebox p {
-/* conteúdo do box - texto maior */
-    opacity: 0.7;
-    font-family: Roboto-Regular;
-    font-size: 24px;
-    color: #000000;
-    line-height: 28px;
-    
-    width: 390px;
-    margin: 70px;
-    padding: 5px;
-
-
-
-}
-
-.most-accessed  {
-/* mais acessadas */
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #111111;
-    font-weight: bold;
-    width: 940px;
-    margin: 20px auto;
-    
-   
 }
 
 .footer    {
@@ -167,8 +99,10 @@ header {
     background-color: #EEEEEE;
     width: 100%;
     height: 62px;
-    margin: 0px;
-    padding: 0;
+    position: absolute;
+    bottom: 0;
+    top: 1040px;
+    
   
 }
 
@@ -180,5 +114,7 @@ header {
     text-align: center;
     line-height: 45px;
     font-family: 'Roboto', sans-serif;
+  
+   
 
 } 
