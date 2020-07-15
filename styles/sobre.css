@@ -1,0 +1,121 @@
+
+
+*{
+
+    margin: 0;
+    
+}
+
+
+body {
+
+    background: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+       
+}
+
+header {
+  
+    padding: 0px;
+       
+}
+
+.menu {
+
+    width: 310px;
+    height: 20px;
+    margin: 0px 439px;
+    position: relative;
+  
+}
+  
+.menu  a {
+  
+      float: left;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      margin: 10px 10px auto;
+      text-decoration: none;
+      color: #000;
+      width: 100px 0;
+   
+  
+}
+
+.menu a:hover {
+
+    font-weight: bold;
+
+
+}
+
+
+
+.letters {
+
+    background-color: white;
+    width: 940px;
+    height: 366px;
+    margin: 50px auto;
+    
+    
+          
+}
+
+.letters .lettertittle {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    
+}
+
+.letter .lettertittle2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #111111;
+
+}
+
+.letter {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    text-align: justify;
+    padding-bottom: 30px;
+    
+
+}
+
+.footer    {
+
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 62px;
+    position: absolute;
+    bottom: 0;
+    top: 1040px;
+    
+  
+}
+
+.footer   p {
+
+   
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+  
+   
+
+} 
