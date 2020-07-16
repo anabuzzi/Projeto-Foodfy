@@ -3,6 +3,7 @@
 
 <head>
     <title>Foodfy</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/styles/receitas.css">
     <link rel="icon" href="/assets/garfo.svg" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -25,10 +26,10 @@
 
     <section class="cardsfood">
         
-        <div class="card" id = "baconburguer">
+        <div  id="burger" class="card">
             
                 <p>
-                <img src="/assets/burger.png" alt="burguer">
+                <img id="myImg" src="/assets/burger.png" alt="burguer">
                 <p>
                 <strong>
                     Triplo bacon burguer
@@ -42,7 +43,7 @@
         <div class="card" id = "pizza">
             
                 <p>
-                <img src="/assets/pizza.png" alt="pizza">
+                <img id="myImg"  src="/assets/pizza.png" alt="pizza">
                 <p>
                 <strong>
                     Pizza 4 estações
@@ -55,7 +56,7 @@
         <div class="card" id = "espaguete">
             
                 <p>
-                <img src="/assets/espaguete.png" alt="espaguete">
+                <img id="myImg" src="/assets/espaguete.png" alt="espaguete">
                 <p>
                 <strong>
                     Espaguete ao alho
@@ -67,7 +68,7 @@
         <div class="card" id = "lasanha">
             
                 <p>
-                <img src="/assets/lasanha.png" alt="Lasanha">
+                <img id="myImg"  src="/assets/lasanha.png" alt="Lasanha">
                 <p>
                 <strong>
                     Lasanha mac n' cheese
@@ -76,10 +77,10 @@
                      por Juliano Vieira<br/>
                 </div>
         </div>
-        <div class="card" id = "docinhos">
+        <div class="card" id = "doce">
             
                 <p>
-                <img src="/assets/doce.png" alt="docinho">
+                <img id="myImg"  src="/assets/doce.png" alt="docinho">
                 <p>
                 <strong>
                    Docinhos pão-do-céu
@@ -88,10 +89,10 @@
                     por Ricardo Golvea<br/>
                 </div>
         </div>
-        <div class="card" id = "asinha">
+        <div class="card" id = "asinhas">
             
                 <p>
-                <img src="/assets/asinhas.png" alt="asinhas">
+                <img id="myImg"  src="/assets/asinhas.png" alt="asinhas">
                 <p>
                 <strong>
                   Asinhas de frango ao barbecue
@@ -103,10 +104,10 @@
         </section>
     <section class="cardsfood">
 
-            <div class="card" id = "baconburguer">
+            <div  id="burger" class="card">
             
                 <p>
-                <img src="/assets/burger.png" alt="burguer">
+                <img id="myImg"  src="/assets/burger.png" alt="burguer">
                 <p>
                 <strong>
                     Triplo bacon burguer
@@ -120,7 +121,7 @@
         <div class="card" id = "pizza">
             
                 <p>
-                <img src="/assets/pizza.png" alt="pizza">
+                <img id="myImg"  src="/assets/pizza.png" alt="pizza">
                 <p>
                 <strong>
                     Pizza 4 estações
@@ -133,7 +134,7 @@
         <div class="card" id = "espaguete">
             
                 <p>
-                <img src="/assets/espaguete.png" alt="espaguete">
+                <img id="myImg"  src="/assets/espaguete.png" alt="espaguete">
                 <p>
                 <strong>
                     Espaguete ao alho
@@ -145,7 +146,7 @@
         <div class="card" id = "lasanha">
             
                 <p>
-                <img src="/assets/lasanha.png" alt="Lasanha">
+                <img id="myImg"  src="/assets/lasanha.png" alt="Lasanha">
                 <p>
                 <strong>
                     Lasanha mac n' cheese
@@ -154,10 +155,10 @@
                      por Juliano Vieira<br/>
                 </div>
         </div>
-        <div class="card" id = "docinhos">
+        <div class="card" id = "doce">
             
                 <p>
-                <img src="/assets/doce.png" alt="docinho">
+                <img id="myImg"  src="/assets/doce.png" alt="docinho">
                 <p>
                 <strong>
                    Docinhos pão-do-céu
@@ -166,10 +167,10 @@
                     por Ricardo Golvea<br/>
                 </div>
         </div>
-        <div class="card" id = "asinha">
+        <div class="card" id = "asinhas">
             
                 <p>
-                <img src="/assets/asinhas.png" alt="asinhas">
+                <img id="myImg"  src="/assets/asinhas.png" alt="asinhas">
                 <p>
                 <strong>
                   Asinhas de frango ao barbecue
@@ -182,9 +183,49 @@
                     <br>
                         <br>
         </div>
+        </div>
     </section>
-    </div>
+        </div>
+        <div class="modal-overlay">
+            <div  class="modal">
+                <a class="minimize-modal">
+                <span class="material-icons">
+                minimize
+                </span>
+                </a>
+       
+       
+                <a class="maximize-modal">
+                <span class="material-icons">
+                crop_square
+                </span>
+                </a>
+       
+       
+                <a class="close-modal">
+                <span class="material-icons">
+                close
+                </span>
+                </a>
+                 <div id="caption"></div>
+                </div>
+                <div class="modal-content" id="img01" >
+                    <iframe src="" frameborder="0"></iframe>      
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    
+    
      
         <div class="footer">
             <p>Todos direitos reservados, receitas Foodfy.</p>
         </div>
+         <script src="../scripts/foodfy.js"></script>
+</body>
+
+</html>

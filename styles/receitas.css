@@ -89,7 +89,8 @@ header {
     width: 300px;
     height: 140px;
     border-radius: 15px;
-    
+    cursor: pointer;
+    transition: 0.3s;
     
 
 }
@@ -118,3 +119,116 @@ header {
    
 
 } 
+
+
+/* MODAL */
+
+/* === MODAL === */
+/* configuração geral MODAL */
+.modal-overlay {
+
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    top: 30%;
+    left: 32%;
+    position: fixed;
+    /* Top = 0 para ocupar a tela toda */
+    opacity: 0%;
+    visibility: hidden;
+}
+
+
+.modal-overlay.active {
+
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.modal-overlay.maximize {
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+iframe {
+
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 40px;
+    left: 0;
+    
+    /* top 40px para aparecer o X no canto da tela */
+
+}
+
+
+
+/* maximize - closed - minimize (icones)*/
+
+.modal .maximize-modal {
+
+    color: black;
+    /* position absolute permite eu colocar em qualquer lugar da tela */
+    right: 40px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+/* icone maximize-modal */
+}
+
+
+.modal .close-modal {
+
+    color: black;
+    position: absolute;
+    /* position absolute permite eu colocar em qualquer lugar da tela */
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+
+}
+
+.modal .minimize-modal {
+
+    color: black;
+    /* position absolute permite eu colocar em qualquer lugar da tela */
+    right: 70px;
+    top: 4px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+/* TESTE */
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+}
+
+}
