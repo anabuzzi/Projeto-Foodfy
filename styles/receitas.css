@@ -154,8 +154,6 @@ header {
     left: 0;
 }
 
-
-
 iframe {
 
     position: absolute;
@@ -165,9 +163,18 @@ iframe {
     left: 50px;
     right: 40px;
     
-    /* top 40px para aparecer o X no canto da tela */
-
+   /* top 40px para aparecer o X no canto da tela */
 }
+
+iframe.maximize {
+
+
+
+
+    
+}
+
+
 
 /* maximize - closed - minimize (icones)*/
 
