@@ -10,7 +10,7 @@ O projeto faz parte do desafio apresentado pelo Bootcamp Launchbase e tem o obje
 <br>
 <h3> 📐 Nesse desafio inicial o objetivo era:</h3>
 <br>
-<br><strong>1.</strong>Criar uma página 'Home' com as configurações de cores, logotipo e imagens fornecidas;</br>
+<br><strong>1.</strong> Criar uma página 'Home' com as configurações de cores, logotipo e imagens fornecidas;</br>
 <br><strong>2.</strong> Criar uma página 'Sobre'com as configurações de cores e fontes exigidas;</br>
 <br><strong>3.</strong> Criar uma página 'Receitas' com as configurações de imagens em formato grid;</br>
 <br><strong>4.</strong> Criar uma página 'Receitas' em formato Modal com legenda conforme o click do card;</br>
@@ -20,8 +20,11 @@ O projeto faz parte do desafio apresentado pelo Bootcamp Launchbase e tem o obje
 O projeto ainda está em desenvolvimento, as novas funcionalidades são implementadas de acordo com os novos desafios e conhecimentos passados ao decorrer do curso.
 <br></br>
 <br></br>
+<div align="center">
 <h3>:movie_camera: Vídeo do projeto no loom:</h3> 
-https://www.loom.com/share/b8cbe7d71ff946e4ae78beefa1eeb71d
 
+https://www.loom.com/share/b8cbe7d71ff946e4ae78beefa1eeb71d
 Feito por Ana Buzzi :purple_heart:
+</div>
+
 
