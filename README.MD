@@ -21,7 +21,6 @@ O projeto ainda está em desenvolvimento, as novas funcionalidades são implemen
 <br></br>
 <br></br>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b8cbe7d71ff946e4ae78beefa1eeb71d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Feito por Ana Buzzi :purple_heart:
 
