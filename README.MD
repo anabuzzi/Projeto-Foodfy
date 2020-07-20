@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.ibb.co/9ttwx2m/Capturar1.png" height="137" width="558" align="center" alt="Projeto Foodfy"></div>
+<img src="https://i.ibb.co/9ttwx2m/Capturar1.png" align="center" alt="Projeto Foodfy"></div>
 </div>
 <p>
 <h1>Foodfy</h1>
@@ -10,17 +10,18 @@ O projeto faz parte do desafio apresentado pelo Bootcamp Launchbase e tem o obje
 <br>
 <h3> 📐 Nesse desafio inicial o objetivo era:</h3>
 <br>
-1. Criar uma página 'Home' com as configurações de cores, logotipo e imagens fornecidas;
-2. Criar uma página 'Sobre'com as configurações de cores e fontes exigidas;
-3. Criar uma página 'Receitas' com as configurações de imagens em formato grid;
-4. Criar uma página 'Receitas' em formato Modal com legenda conforme o click do card;
+<br><strong>1.</strong>Criar uma página 'Home' com as configurações de cores, logotipo e imagens fornecidas;</br>
+<br><strong>2.</strong> Criar uma página 'Sobre'com as configurações de cores e fontes exigidas;</br>
+<br><strong>3.</strong> Criar uma página 'Receitas' com as configurações de imagens em formato grid;</br>
+<br><strong>4.</strong> Criar uma página 'Receitas' em formato Modal com legenda conforme o click do card;</br>
 <br>
 <br>
 <h3>📃 Informações:</h3>
 O projeto ainda está em desenvolvimento, as novas funcionalidades são implementadas de acordo com os novos desafios e conhecimentos passados ao decorrer do curso.
 <br></br>
 <br></br>
-
+<h3>:movie_camera: Vídeo do projeto no loom:</h3> 
+https://www.loom.com/share/b8cbe7d71ff946e4ae78beefa1eeb71d
 
 Feito por Ana Buzzi :purple_heart:
 
