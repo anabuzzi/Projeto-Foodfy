@@ -24,7 +24,10 @@ O projeto ainda está em desenvolvimento, as novas funcionalidades são implemen
 <h3>:movie_camera: Vídeo do projeto no loom:</h3> 
 
 https://www.loom.com/share/b8cbe7d71ff946e4ae78beefa1eeb71d
+<br>
+<p>
 Feito por Ana Buzzi :purple_heart:
+</p>
 </div>
 
 
