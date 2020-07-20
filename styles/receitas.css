@@ -163,16 +163,32 @@ iframe {
     left: 50px;
     right: 40px;
     
+   
    /* top 40px para aparecer o X no canto da tela */
 }
 
-iframe.maximize {
+.iframecontent {
 
 
-
-
-    
+    color: var(--color-letter);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 330px;
+    line-height: 28px;
 }
+
+.iframecontent2 {
+
+
+    color: var(--color-letter);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777777;
+
+}
+
 
 
 

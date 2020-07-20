@@ -1,0 +1,27 @@
+<div align="center">
+<img src="https://i.ibb.co/9ttwx2m/Capturar1.png" height="137" width="558" align="center" alt="Projeto Foodfy"></div>
+</div>
+<p>
+<h1>Foodfy</h1>
+<br>
+</p>
+<h3> 🚀 Sobre o projeto:</h3>
+O projeto faz parte do desafio apresentado pelo Bootcamp Launchbase e tem o objetivo de criar três páginas (home, sobre, receitas) referente a culinária e a postagem de receitas.
+<br>
+<h3> 📐 Nesse desafio inicial o objetivo era:</h3>
+<br>
+1. Criar uma página 'Home' com as configurações de cores, logotipo e imagens fornecidas;
+2. Criar uma página 'Sobre'com as configurações de cores e fontes exigidas;
+3. Criar uma página 'Receitas' com as configurações de imagens em formato grid;
+4. Criar uma página 'Receitas' em formato Modal com legenda conforme o click do card;
+<br>
+<br>
+<h3>📃 Informações:</h3>
+O projeto ainda está em desenvolvimento, as novas funcionalidades são implementadas de acordo com os novos desafios e conhecimentos passados ao decorrer do curso.
+<br></br>
+<br></br>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b8cbe7d71ff946e4ae78beefa1eeb71d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Feito por Ana Buzzi :purple_heart:
+
